@@ -30,7 +30,8 @@ public class Main {
         System.out.println(songService.findById(1L));
         songService.save(song);
 
-        System.out.println(songService.updateInstance(2L, "yaser", 3.56, LocalDate.now(), "Rap", "Out Of Root"));
+        System.out.println(songService.updateInstance(2L, "yaser",
+                3.56, LocalDate.now(), "Rap", "Out Of Root"));
 
 
 //        System.out.println(albumService.saveInstance("new album", LocalDate.now()));
